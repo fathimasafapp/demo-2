@@ -1,0 +1,13 @@
+td{
+    text-align: center;
+}th{
+    color: rgb(146, 115, 68);
+}table{
+    border-collapse: collapse;
+    background-color: rgb(231, 183, 124);
+    box-sizing: content-box;
+    box-shadow: inset;
+    border-width: 0cm;
+    border-style: outset;
+    
+}

@@ -1,0 +1,11 @@
+table{
+    border-color: brown;
+    border: 2px solid darkolivegreen;
+    border-collapse: collapse;
+    border-style: dotted;
+}th{
+    color:darkolivegreen;
+    border-style: dotted;
+}td{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

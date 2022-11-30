@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="regform.css">
+</head>
+
+<body bgcolor="grey">
+    <h2 align="center">REGISTRATION FORM</h2>
+    <form method="post" autocomplete="on" align="center">
+        <label for="abc">FIRST NAME</label>
+        <input type="text" id="abc"><br>
+        <label for="lmn">LAST NAME</label>
+        <input type="text" id="lmn">
+        <br>
+        GENDER
+        <input type="radio" name="gender" id="female"><label>FEMALE</label>
+        <input type="radio" name="gender" id="male"><label>MALE</label><br>
+        <label>SUBJECTS</label>
+        <input type="checkbox" name="subject" id="M"><label>maths</label><br>
+        <input type="checkbox" name="subject" id="P"><label>physics</label><br>
+        <input type="checkbox" name="subject" id="c"><label>chemistry</label><br>
+        <label for="email">EMAIL:</label><br>
+        <input type="email" id="email"><br>
+        <label>DATE OF BIRTH</label><br>
+        <input type="date"><br>
+        <label for="docs">PROFILE:</label>
+        <input type="file" id="docs"><br>
+        <label for="aaa">ADDRESS:</label>
+        <textarea name="address" id="aaa" cols="20" rows="10" border="2px"></textarea>
+        <input type="submit" value="submit">
+        <br>
+        <label for="pqr">LANGUAGES</label>
+        <select name="lang" id="pqr">
+            <option value="malayalam">malayalam</option>
+            <option value="english">english</option>
+            <option value="hindi">hindi</option>
+            <option value="urdu">urdu</option>
+        </select>
+    </form>
+</body>
+</html>
